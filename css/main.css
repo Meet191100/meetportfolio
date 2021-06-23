@@ -1502,9 +1502,9 @@ header .logo a {
 .intro-info img {
 	height: 20rem;
 	width: 20rem;
-	border-radius: 50%;
+	border-radius: 20%;
 	margin-left: 33%;
-	float: center;
+	align-items: center;
 }
 .intro-info .lead {
 	text-align: justify;
@@ -1574,11 +1574,13 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 15rem;
+		width: 10rem;
+		margin-left: 10%;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
+		text-align: justify;
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1600,14 +1602,15 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 12rem;
+		width: 12rem;
 		float: none;
 		display: inline-block;
+		margin-left: 0.1%;
 	}
 	.intro-info .lead {
 		padding-left: 0;
-		text-align: center;
+		text-align: justify;
 	}
 }
 
